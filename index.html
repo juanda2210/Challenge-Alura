@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Encriptador de Texto | Juanda</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="Logo.svg" alt="Logo de Alura">
+    </header>
+    <main>
+        <section class="seccion_izquierda">
+            <div class="contenedor_caja_texto">
+                <textarea class="caja_texto">Ingrese el texto aquí
+                </textarea>
+            </div>
+            <div class="alerta">
+                <img src="bi_exclamation-circle-fill.png" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedor_botones">
+                <input type="button" class="boton_encriptar" value="Encriptar">
+                <input type="button" class="boton_desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion_derecha">
+            <div class="contenedor_muñeco">
+                <img src="Muñeco.png" class="muñeco" alt="muñeco">
+            </div>
+            <div class="contenedor_parrafo">
+                <p class="parrafo_derecha"><strong>Ningún mensaje fue <br> encontrado</strong></p>
+                <p class="parrafo_derecha_dos">Ingresa el texto que desees encriptar o <br> desee encriptar</p>
+            </div>
+            <div class="contenedor_boton_copiar">
+                <input type="button" class="boton_copiar" value="Copiar">
+            </div>
+            <div class="contenedor_texto_encriptado">
+                <p class="texto_encriptado"></p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="function.js"></script>
+
+</html>
